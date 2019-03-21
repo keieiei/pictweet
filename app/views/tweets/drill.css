@@ -1,0 +1,41 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  height: 100%;
+}
+header{
+  background-color: #333;
+  height: 70px;
+  width: 100%;
+  position: fixed
+}
+.contents{
+  width: 960px;
+  background-color: #ddd;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.left-content{
+  float: left;
+  background-color: red;
+  width: 700px;
+  height: 400px;
+}
+.right-content{
+  background-color: yellow;
+  width: 260px;
+  height: 300px;
+  float:right;
+}
+.bottom-content{
+  background-color: green;
+  height: 250px;
+    clear: both;
+}
+footer{
+  height: 60px;
+  background-color: #333;
+}
